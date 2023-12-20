@@ -1,0 +1,45 @@
+{
+  "name": "book-source-html-renderer",
+  "version": "0.1.0",
+  "description": "HTML text renderer for the Book Source parser, a lightweight markup language, inspired by Markdown",
+  "main": "lib/HtmlRenderer.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "highlight.js": "^11.9.0",
+    "string-kit": "^0.18.0"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/book-source-html-renderer.git"
+  },
+  "keywords": [
+    "lightweight",
+    "markup",
+    "language",
+    "book",
+    "source",
+    "html",
+    "renderer",
+    "css"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/book-source-html-renderer/issues"
+  },
+  "copyright": {
+    "title": "Book Source HTML Renderer",
+    "years": [
+      2023
+    ],
+    "owner": "Cédric Ronvel"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}

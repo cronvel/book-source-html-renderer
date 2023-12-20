@@ -1,0 +1,65 @@
+
+/* Checkboxes */
+
+.book-source ul.todo-list {
+	display: table;
+	max-width: 50%;
+	min-width: 10%;
+	background-color: #f6f3c0;
+	border-radius: 0.5em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	padding-right: 2em;
+	padding-left: 4em;		/* =~ 2 + 1 + ( 1.75 + 0.3 ) / 2 */
+}
+
+.book-source ul.todo-list li {
+	text-indent: -1.6em;	/* = 1.75 - 0.3 / 2 */
+	line-height: 1.2;
+}
+
+.book-source ul li.unchecked {
+	list-style: none;
+}
+
+.book-source ul li.unchecked::before {
+	content: '☐';
+	font-size: 1.75em;
+	position: relative;
+	top: 0.15em;
+	right: 0.3em;
+}
+
+.book-source ul li.checked {
+	list-style: none;
+}
+
+.book-source ul li.checked::before {
+	content: '☑';
+	color: green;
+	font-size: 1.75em;
+	position: relative;
+	top: 0.15em;
+	right: 0.3em;
+}
+
+
+
+/* Sections and columns */
+
+.book-source section {
+	display: flex;
+	clear: both;
+}
+
+.book-source div.column , .book-source column {
+	flex: 1;
+	padding: 0 10px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.book-source div.column:nth-last-child(n+2) , .book-source column:nth-last-child(n+2) {
+	border-right: 1px solid #c6cbd1;
+}
+

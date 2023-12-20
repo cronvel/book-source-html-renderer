@@ -1,0 +1,120 @@
+.book-source .hljs {
+  display: block;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.book-source .hljs-comment ,
+.book-source .hljs-template_comment ,
+.book-source .diff .hljs-header ,
+.book-source .hljs-javadoc {
+  color: #998;
+  font-style: italic;
+}
+
+.book-source .hljs-keyword ,
+.book-source .css .rule .hljs-keyword ,
+.book-source .hljs-winutils ,
+.book-source .javascript .hljs-title ,
+.book-source .nginx .hljs-title ,
+.book-source .hljs-subst ,
+.book-source .hljs-request ,
+.book-source .hljs-status {
+  color: #333;
+  font-weight: bold;
+}
+
+.book-source .hljs-number ,
+.book-source .hljs-hexcolor ,
+.book-source .ruby .hljs-constant {
+  color: #099;
+}
+
+.book-source .hljs-string ,
+.book-source .hljs-tag .hljs-value ,
+.book-source .hljs-phpdoc ,
+.book-source .tex .hljs-formula {
+  color: #d14;
+}
+
+.book-source .hljs-title ,
+.book-source .hljs-id ,
+.book-source .coffeescript .hljs-params ,
+.book-source .scss .hljs-preprocessor {
+  color: #900;
+  font-weight: bold;
+}
+
+.book-source .javascript .hljs-title ,
+.book-source .lisp .hljs-title ,
+.book-source .clojure .hljs-title ,
+.book-source .hljs-subst {
+  font-weight: normal;
+}
+
+.book-source .hljs-class .hljs-title ,
+.book-source .haskell .hljs-type ,
+.book-source .vhdl .hljs-literal ,
+.book-source .tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.book-source .hljs-tag ,
+.book-source .hljs-tag .hljs-title ,
+.book-source .hljs-rules .hljs-property ,
+.book-source .django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.book-source .hljs-attribute ,
+.book-source .hljs-variable ,
+.book-source .lisp .hljs-body {
+  color: #008080;
+}
+
+.book-source .hljs-regexp {
+  color: #009926;
+}
+
+.book-source .hljs-symbol ,
+.book-source .ruby .hljs-symbol .hljs-string ,
+.book-source .lisp .hljs-keyword ,
+.book-source .tex .hljs-special ,
+.book-source .hljs-prompt {
+  color: #990073;
+}
+
+.book-source .hljs-built_in ,
+.book-source .lisp .hljs-title ,
+.book-source .clojure .hljs-built_in {
+  color: #0086b3;
+}
+
+.book-source .hljs-preprocessor ,
+.book-source .hljs-pragma ,
+.book-source .hljs-pi ,
+.book-source .hljs-doctype ,
+.book-source .hljs-shebang ,
+.book-source .hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.book-source .hljs-deletion {
+  background: #fdd;
+}
+
+.book-source .hljs-addition {
+  background: #dfd;
+}
+
+.book-source .diff .hljs-change {
+  background: #0086b3;
+}
+
+.book-source .hljs-chunk {
+  color: #aaa;
+}
