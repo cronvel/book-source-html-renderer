@@ -236,16 +236,19 @@
 	border-right: 2px solid var(--table-border-color);
 }
 
-.book-source table tbody tr {
-	background-color: var(--table-row-background-color);
-	border-top: 1px solid var(--table-border-color);
-}
-
 .book-source table th.row-separator, .book-source table tr.row-separator {
 	border-bottom: 6px solid var(--table-border-color);
 }
 
-.book-source table tbody tr:nth-child(2n):not(.bg-styled) {
+.book-source table tbody tr {
+	border-top: 1px solid var(--table-border-color);
+}
+
+.book-source table tbody tr:not(.bg-styled) {
+	background-color: var(--table-row-background-color);
+}
+
+.book-source table:not(.has-row-span) tbody tr:nth-child(2n):not(.bg-styled) {
 	background-color: var(--table-even-row-background-color);
 }
 
