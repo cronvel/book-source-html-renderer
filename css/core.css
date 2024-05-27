@@ -271,7 +271,7 @@
 
 @media print {
 	.book-source {
-		font-size: var(--text-size);
+		font-size: var(--text-printsize);
 	}
 
 	.book-source h1 {
