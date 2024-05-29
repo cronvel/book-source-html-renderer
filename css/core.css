@@ -55,24 +55,24 @@
 .book-source h2 { font-size: 2em ; }
 .book-source h3 { font-size: 1.6em ; }
 .book-source h4 { font-size: 1.25em ; }
-.book-source h5 { font-size: 1em ; }
-.book-source h6 { font-size: 0.8em ; }
+.book-source h5 { font-size: 1.2em ; }
+.book-source h6 { font-size: 1.1em ; }
 
 .book-source h1 {
-	margin: 2em 0 3em 0;
+	margin: 2em 0 5em 0;
 	text-align: center;
 }
 
 .book-source h2 ,
 .book-source h3 {
-	margin: 2em 0 1em 0;
+	margin: 3em 0 1.5em 0;
 	border-bottom: 1px solid var(--header-rule-color);
 }
 
 .book-source h4 ,
 .book-source h5 ,
 .book-source h6 {
-	margin: 0.5em 0 0 0;
+	margin: 1.5em 0 0.5em 0;
 	text-decoration: underline;
 }
 
