@@ -18,7 +18,12 @@
 .book-source .bold { font-weight: bold; }
 .book-source .italic { font-style: italic; }
 .book-source .underline { text-decoration: underline; }
-.book-source .hint-tooltip { cursor: help; }
+.book-source .hint { cursor: help; }
+
+.book-source .infotip {
+	cursor: help;
+	text-decoration: underline dotted #80808080;
+}
 
 .book-source .align-left { text-align: left; }
 .book-source .align-right { text-align: right; }

@@ -1,6 +1,6 @@
 {
   "name": "book-source-html-renderer",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "HTML text renderer for the Book Source parser, a lightweight markup language, inspired by Markdown.",
   "main": "lib/HtmlRenderer.js",
   "directories": {
